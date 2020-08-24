@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1200px)
+{
+    header{
+        height: 65vh;
+    }
+    .row{
+        margin: 0 15px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .mobile-menu span{
+        display: block;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        text-align: center;
+        float: none;
+        width: 95%;
+    }
+    
+}
+
+@media only screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    
+    .client-review{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    html{
+        font-size: 54%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .html{
+        font-size: 62.5%;
+    }
+    .client-review{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+}
